@@ -136,5 +136,5 @@ policy "restrict-subnet-of-ec2-instances" {
 
 policy "validate-providers-from-desired-regions" {
   source = "./validate-providers-from-desired-regions.sentinel"
-  enforcement_level = "advisory"
+  enforcement_level = "soft-mandatory"
 }
